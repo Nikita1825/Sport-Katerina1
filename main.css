@@ -53,7 +53,7 @@ body {
     height: 886px;
         background-repeat: no-repeat;
 }
-@media screen and (max-widh:390px) {
+
     
     @media (min-device-pixel-ratio: 2),(-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi),(min-resolution: 2dppx) {
         .hero {
@@ -61,7 +61,7 @@ body {
             
         }
     }
-}
+
 .txt-sport {
 font-weight: 500;
 font-size: 57px;
@@ -138,7 +138,7 @@ cursor: pointer;
         background-repeat: no-repeat;
         
 }
-@media screen and (max-widh:390px) {
+
     
     @media (min-device-pixel-ratio: 2),(-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi),(min-resolution: 2dppx) {
         .start{
@@ -146,7 +146,7 @@ cursor: pointer;
             
         }
     }
-}
+
 .h-start {
     font-weight: 500;
     font-size: 57px;
@@ -202,15 +202,15 @@ cursor: pointer;
     height: 853px;
         background-repeat: no-repeat;
 }
-@media screen and (max-widh:390px) {
+
     
     @media (min-device-pixel-ratio: 2),(-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi),(min-resolution: 2dppx) {
-        .start{
+        .Iam{
             background-image: url(./img/фон\ \(5\).jpg);
             
         }
     }
-}
+
 .I-am{
     font-weight: 500;
     font-size: 57px;
@@ -268,7 +268,7 @@ cursor: pointer;
         background-repeat: no-repeat;
         padding-left: 49px;
 }
-@media screen and (max-widh:390px) {
+
     
     @media (min-device-pixel-ratio: 2),(-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi),(min-resolution: 2dppx) {
         .training{
@@ -276,7 +276,7 @@ cursor: pointer;
             
         }
     }
-}
+
 .train-h{
     padding-top: 33px;
     font-weight: 500;
@@ -350,7 +350,7 @@ margin-bottom: 67px;
         padding-top: 35px;
         
 }
-@media screen and (max-widh:390px) {
+
     
     @media (min-device-pixel-ratio: 2),(-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi),(min-resolution: 2dppx) {
         .lesson{
@@ -358,7 +358,7 @@ margin-bottom: 67px;
             
         }
     }
-}
+
 .h-massage {
    font-weight: 500;
    font-size: 45px;
@@ -394,7 +394,7 @@ font-family: "Montserrat";
         padding-left: 49px;
         padding-top: 44px;
 }
-@media screen and (max-widh:390px) {
+
     
     @media (min-device-pixel-ratio: 2),(-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi),(min-resolution: 2dppx) {
         .revievs{
@@ -402,7 +402,7 @@ font-family: "Montserrat";
             
         }
     }
-}
+
 .h-rev{
     font-weight: 500;
    font-size: 45px;
@@ -448,7 +448,7 @@ font-family: "Montserrat";
         padding-right: 47px;
         padding-top: 12px;
 }
-@media screen and (max-widh:390px) {
+
     
     @media (min-device-pixel-ratio: 2),(-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi),(min-resolution: 2dppx) {
         .contacts{
@@ -456,7 +456,7 @@ font-family: "Montserrat";
             
         }
     }
-}
+
 .h-contacts{
     font-weight: 500;
    font-size: 57px;
