@@ -1,8 +1,14 @@
 const loadmorebtn = document.querySelector(".btn-train");
 const list = document.querySelector(".train-video");
 const train = document.querySelector(".training");
-const link = document.querySelector(".link-nav");
+const link = document.querySelector(".link-navl ");
+const linkl = document.querySelector(".link-navi ");
+const linki = document.querySelector(".link-navn ");
+const linkn = document.querySelector(".link-navk ");
+const linkk = document.querySelector(".link-navn ");
+const linka = document.querySelector(".link-nava ");
 const nav = document.querySelector(".nav");
+const burger =document.querySelector(".burger")
 let currentItems = 3;
 
 loadmorebtn.addEventListener("click", (e) => {
@@ -20,6 +26,29 @@ loadmorebtn.addEventListener("click", (e) => {
   }
   currentItems += 7;
 });
+
+
 link.addEventListener("click", (e) => {
-  nav.style.display = "none";
+    burger.classList.toggle("active");
+  nav.classList.remove("open")
+});
+linkl.addEventListener("click", (e) => {
+    burger.classList.toggle("active");
+  nav.classList.remove("open");
+});
+linki.addEventListener("click", (e) => {
+    burger.classList.toggle("active");
+  nav.classList.remove("open");
+});
+linkn.addEventListener("click", (e) => {
+    burger.classList.toggle("active");
+  nav.classList.remove("open");
+});
+linkk.addEventListener("click", (e) => {
+    burger.classList.toggle("active");
+  nav.classList.remove("open");
+});
+linka.addEventListener("click", (e) => {
+    burger.classList.toggle("active");
+  nav.classList.remove("open");
 });

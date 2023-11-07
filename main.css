@@ -119,13 +119,13 @@ cursor: pointer;
   
 }
   .hero {
-    background-image: url(./img/zagolovok.jpg);
+    background-image: url(./img/zyro-image\ \(1\).png);
     height: 1161px;
 }
 
 @media (min-device-pixel-ratio: 2),(-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi),(min-resolution: 2dppx) {
    .hero {
-    background-image: url(./img/zagolovok.jpg);
+    background-image: url(./img/zyro-image\ \(1\).png);
     
 }
 }
@@ -197,7 +197,7 @@ cursor: pointer;
 
 /* ============================================Iam========================== */
 .Iam{
-    background-image: url(./img/фон\ \(5\).jpg);
+    background-image: url(./img/zyro-image\ \(2\).png);
     background-size: cover;
     height: 853px;
         background-repeat: no-repeat;
@@ -206,7 +206,7 @@ cursor: pointer;
     
     @media (min-device-pixel-ratio: 2),(-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi),(min-resolution: 2dppx) {
         .Iam{
-            background-image: url(./img/фон\ \(5\).jpg);
+            background-image: url(./img/zyro-image\ \(2\).png);
             
         }
     }
@@ -440,7 +440,7 @@ font-family: "Montserrat";
 }
 /* =======================================contacts========================== */
 .contacts{
-      background-image: url(./img/Kate3.jpg);
+      background-image: url(./img/zyro-image\ \(3\).png);
     background-size: cover;
     height: 852px;
         background-repeat: no-repeat;
@@ -452,7 +452,7 @@ font-family: "Montserrat";
     
     @media (min-device-pixel-ratio: 2),(-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi),(min-resolution: 2dppx) {
         .contacts{
-            background-image: url(./img/Kate3.jpg);
+            background-image: url(./img/zyro-image\ \(3\).png);
             
         }
     }
@@ -583,7 +583,42 @@ text-align: right;
 .burg{
     padding-top: 30px;
 }
-.link-nav{
+.link-navl{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    color: white;
+    font-family: "Montserrat";
+}
+.link-navi{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    color: white;
+    font-family: "Montserrat";
+}
+.link-navn{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    color: white;
+    font-family: "Montserrat";
+}
+.link-navk{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    color: white;
+    font-family: "Montserrat";
+}
+.link-navn{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    color: white;
+    font-family: "Montserrat";
+}
+.link-nava{
     font-weight: 600;
     font-size: 18px;
     line-height: 18px;
