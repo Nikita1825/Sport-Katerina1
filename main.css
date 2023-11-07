@@ -1,0 +1,592 @@
+@font-face {
+    font-family: "Druk-Wide-Cy-Web";
+    src: url("./fonts/Druk-Wide-Cy-Web-Medium-Regular.ttf");
+    
+}
+@font-face {
+    
+    font-family: "Montserrat";
+    src: url("./fonts/Montserrat-SemiBold.ttf");
+}
+p,h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+ul {
+    margin: 0;
+    padding-left: 0;
+}
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+    
+}
+body {
+  font-family: "Druk-Wide-Cy-Web";  
+   
+}
+
+.container {
+  max-width:  390px;
+ margin-left: auto;
+ margin-right: auto;
+    
+}
+.info {
+    
+        display: flex;
+    text-align: center;
+    flex-direction: column;
+    
+}
+.hero{
+    /* padding-top: 30px; */
+    /* max-width: 390px; */
+    /* margin-left: auto;
+    margin-right: auto; */
+    padding-right: 47px;
+    padding-left: 50px;
+    
+    background-image: url(./img/фон\ \(1\).jpg);
+    background-size: cover;
+    height: 886px;
+        background-repeat: no-repeat;
+}
+@media screen and (max-widh:390px) {
+    
+    @media (min-device-pixel-ratio: 2),(-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi),(min-resolution: 2dppx) {
+        .hero {
+            background-image: url(./img/фон\ \(1\).jpg);
+            
+        }
+    }
+}
+.txt-sport {
+font-weight: 500;
+font-size: 57px;
+line-height: 77.46px;
+
+color: white;
+}
+.txt{
+font-weight: 600;
+font-size: 12px;
+line-height: 18px;
+font-family: "Montserrat";
+color: white;
+width: 156px;
+height: 54px;
+margin-right: 18px;
+}
+.txt-p{
+    font-weight: 500;
+font-size: 57px;
+line-height: 68.34px;
+
+color: white;
+}
+.info-txt{
+    display: flex;
+    text-align: start;
+    justify-content: center;
+    align-items: flex-end;
+}
+.train{
+    display: flex;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    top: 600px;
+    font-weight: 500;
+font-size: 14px;
+line-height: 19.03px;
+color: white;
+border-bottom:2px solid white;
+/* height: 19px; */
+width: 290px; 
+gap: 6px;
+padding-bottom: 2px;
+cursor: pointer;
+}
+.icon-arrow{
+    fill: white;
+}
+
+@media screen and (min-width:1731px) {
+.container {
+  max-width: 1731px;
+  
+}
+  .hero {
+    background-image: url(./img/zagolovok.jpg);
+    height: 1161px;
+}
+
+@media (min-device-pixel-ratio: 2),(-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi),(min-resolution: 2dppx) {
+   .hero {
+    background-image: url(./img/zagolovok.jpg);
+    
+}
+}
+}
+/* =======================================================start======================== */
+.start {
+    background-image: url(./img/Kate1.jpg);
+    background-size: cover;
+    height: 1228px;
+        background-repeat: no-repeat;
+        
+}
+@media screen and (max-widh:390px) {
+    
+    @media (min-device-pixel-ratio: 2),(-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi),(min-resolution: 2dppx) {
+        .start{
+            background-image: url(./img/Kate1.jpg);
+            
+        }
+    }
+}
+.h-start {
+    font-weight: 500;
+    font-size: 57px;
+    line-height: 77.46px;
+    text-align: center;
+    color: white;
+    margin-bottom: 11px;
+}
+.start-txt{
+  font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    font-family: "Montserrat";
+    margin-bottom: 72px;
+    color: white;
+    width: 265px;
+    height: 78px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.couch{
+        gap: 42px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-right: 47px;
+}
+.start-list {
+    border:3px solid white ;
+    padding: 44px 40px;
+    border-radius: 23px;
+}
+.h-couch {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19.03px;
+    color: white;
+    margin-bottom: 26.61px;
+}
+.p-couch{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    font-family: "Montserrat";
+    color: white;
+}
+
+/* ============================================Iam========================== */
+.Iam{
+    background-image: url(./img/фон\ \(5\).jpg);
+    background-size: cover;
+    height: 853px;
+        background-repeat: no-repeat;
+}
+@media screen and (max-widh:390px) {
+    
+    @media (min-device-pixel-ratio: 2),(-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi),(min-resolution: 2dppx) {
+        .start{
+            background-image: url(./img/фон\ \(5\).jpg);
+            
+        }
+    }
+}
+.I-am{
+    font-weight: 500;
+    font-size: 57px;
+    line-height: 77.46px;
+    color: white;
+    text-align: end;
+    padding-right: 46px;
+    margin-bottom: 38px;
+}
+.Who{
+    font-weight: 500;
+    font-size: 57px;
+    line-height: 77.46px;
+    color: white;
+    margin-bottom: 15px;
+    
+    padding-left: 50px;
+}
+.fitness{
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    color: white;
+    padding-left: 50px;
+    font-family: "Montserrat";
+    height: 135px;
+    width: 294px;
+}
+.fitness-p {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    color: white;
+    padding-left: 50px;
+    font-family: "Montserrat";
+    
+}
+.fit-p{
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    color: white;
+    padding-left: 50px;
+    font-family: "Montserrat";
+    position: relative;
+    top:250px;
+    height: 100px;
+    width: 284px;
+}
+/* ================================================================================= */
+.training{
+    background-image: url(./img/фон\ \(7\).jpg);
+    background-size: cover;
+    height: 1108px;
+        background-repeat: no-repeat;
+        padding-left: 49px;
+}
+@media screen and (max-widh:390px) {
+    
+    @media (min-device-pixel-ratio: 2),(-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi),(min-resolution: 2dppx) {
+        .training{
+            background-image: url(./img/фон\ \(7\).jpg);
+            
+        }
+    }
+}
+.train-h{
+    padding-top: 33px;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 61.15px;
+    color:white;
+    /* padding-left: 40px; */
+}
+.train-p {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color:white;
+    text-align: end;
+    padding-right: 31px;
+font-family: "Montserrat";
+margin-bottom: 67px;
+}
+.train-video {
+    gap: 42px;
+    display: flex;
+    flex-direction: column;
+    /* padding-left: 50px; */
+    padding-right: 47px;
+    margin-bottom: 76px;
+}
+.video {
+    border: 1px solid white;
+    border-radius: 4px;
+}
+.p-video{
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19.03px;
+    letter-spacing: 0.1em;
+    color: white;
+}
+.li-vid{
+    display: none;
+}
+.li-vid:nth-child(1){
+    display: block;
+}
+.li-vid:nth-child(2){
+    display: block;
+}
+.li-vid:nth-child(3){
+    display: block;
+}
+
+.btn-train{
+  font-weight: 500;
+    font-size: 14px;
+    line-height: 19.03px;
+    letter-spacing: 0.1em;
+    color: white;
+    cursor: pointer;
+    border-bottom: 2px solid white; 
+    text-align: center;
+    padding-bottom: 4px;
+    
+}
+/* ==========================================lesson==================== */
+.lesson{
+    background-image: url(./img/фон\ \(8\).jpg);
+    background-size: cover;
+    height: 714px;
+        background-repeat: no-repeat;
+        padding-left: 49px;
+        padding-top: 35px;
+        
+}
+@media screen and (max-widh:390px) {
+    
+    @media (min-device-pixel-ratio: 2),(-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi),(min-resolution: 2dppx) {
+        .lesson{
+            background-image: url(./img/фон\ \(8\).jpg);
+            
+        }
+    }
+}
+.h-massage {
+   font-weight: 500;
+   font-size: 45px;
+   line-height: 61.15px;
+   
+   color: white;
+}
+.p-massage{
+margin-top: 44px;
+  font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color:white;
+    margin-bottom: 44px;
+    
+font-family: "Montserrat";
+}
+.h-lesson {
+    font-weight: 500;
+   font-size: 45px;
+   line-height: 45.4px;
+   margin-top: 44px;
+   letter-spacing: 0.01em;
+   color: white;
+}
+
+/* ============================================================revievs================================ */
+.revievs{
+      background-image: url(./img/фон\ \(9\).jpg);
+    background-size: cover;
+    height: 1516px;
+        background-repeat: no-repeat;
+        padding-left: 49px;
+        padding-top: 44px;
+}
+@media screen and (max-widh:390px) {
+    
+    @media (min-device-pixel-ratio: 2),(-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi),(min-resolution: 2dppx) {
+        .revievs{
+            background-image: url(./img/фон\ \(9\).jpg);
+            
+        }
+    }
+}
+.h-rev{
+    font-weight: 500;
+   font-size: 45px;
+   line-height: 61.15px;
+   
+   letter-spacing: 0.01em;
+   color: white;
+   margin-bottom: 44px;
+}
+.li-rev:nth-child(1){
+    padding: 107.32px 6.35px 41.66px 5.65px ;
+    border-radius: 23px;
+    width: 293px;
+    
+    background-color: white;
+}
+.li-rev:nth-child(2){
+    padding: 107.32px 6.35px 41.66px 5.65px ;
+    border-radius: 23px;
+    width: 293px;
+    
+    background-color: white;
+}
+.li-rev:nth-child(3){
+    padding: 107.32px 6.35px 41.66px 5.65px ;
+    border-radius: 23px;
+    width: 293px;
+    
+    background-color: white;
+}
+.ul-rev{
+    flex-direction: column;
+    gap: 44px;
+    display: flex;
+}
+/* =======================================contacts========================== */
+.contacts{
+      background-image: url(./img/Kate3.jpg);
+    background-size: cover;
+    height: 852px;
+        background-repeat: no-repeat;
+        padding-left: 49px;
+        padding-right: 47px;
+        padding-top: 12px;
+}
+@media screen and (max-widh:390px) {
+    
+    @media (min-device-pixel-ratio: 2),(-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi),(min-resolution: 2dppx) {
+        .contacts{
+            background-image: url(./img/Kate3.jpg);
+            
+        }
+    }
+}
+.h-contacts{
+    font-weight: 500;
+   font-size: 57px;
+   line-height: 77.46px;
+   
+   color: white;
+}
+.h-contacts:nth-child(2){
+text-align: right;
+}
+.svg-inst{
+    fill: white;
+    margin-right: 4px;
+}
+.cont-a{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: white;
+    font-family: "Montserrat";
+    align-items: center;
+    display: flex;
+
+}
+.cont-a:nth-child(2){
+    width: 256px;
+}
+.contacts-d {
+    display: flex;
+    flex-direction: column;
+    padding: 39px 7px 35px 30px;
+    gap: 16px;
+    border: 3px solid white;
+    border-radius: 23px;
+    margin-top: 66px;
+}
+.p-contacts{
+     font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: white;
+    font-family: "Montserrat";
+}
+/* =================================================burger=========================== */
+.burger{
+    display: flex;
+    position: relative;
+    z-index: 50;
+    align-items: center;
+    justify-content: flex-end;
+    width: 30px;
+    height: 18px;
+    margin-left: auto;
+    
+
+}
+.open {
+    display: flex !important;
+}
+.burger span {
+    height: 2px;
+    width: 80px;
+    transform: scale(1);
+    background-color: white;
+}
+.burger::before, .burger::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color: white;
+    transition: all 0.3s ease 0s;
+}
+.burger::before{
+    top: 0;
+
+}
+.burger::after {
+    bottom: 0;
+}
+.burger.active span {
+    transform: scale(0);
+}
+.burger.active::before{
+    top:50%;
+    transform: rotate(-45deg) translate(0, -50%);
+}
+.burger.active::after{
+    top:50%;
+    transform: rotate(45deg) translate(0, 50%);
+}
+@media screen and (max-width:1731px) {
+   .burger {
+    display: flex;
+   } 
+   .nav {
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    height: 400px;
+    width: 200px;
+    border-radius: 10px;
+    z-index: 50;
+    overflow-y: auto;
+    padding: 60px 70px;
+    
+    background-image: url(./img/фон\ \(8\).jpg);
+    animation: burgerAnimations 0.5s;
+
+   }
+   .nav ul{
+    flex-direction: column;
+    row-gap: 30px;
+    display: flex;
+   }
+}
+@keyframes burgerAnimations {
+    from{
+        opacity: 0}
+        to {
+            opacity: 1;
+        }
+}
+.burg{
+    padding-top: 30px;
+}
+.link-nav{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    color: white;
+    font-family: "Montserrat";
+}
