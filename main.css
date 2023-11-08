@@ -48,7 +48,7 @@ body {
     padding-right: 47px;
     padding-left: 50px;
     
-    background-image: url(./img/zyro-image.png);
+    background-image: url(./img/zyro-image\ \(1\).png);
     background-size: cover;
     height: 886px;
         background-repeat: no-repeat;
@@ -57,7 +57,7 @@ body {
     
     @media (min-device-pixel-ratio: 2),(-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi),(min-resolution: 2dppx) {
         .hero {
-            background-image: url(./img/zyro-image.png);
+            background-image: url(./img/zyro-image\ \(1\).png);
             
         }
     }
@@ -611,7 +611,7 @@ text-align: right;
     color: white;
     font-family: "Montserrat";
 }
-.link-navn{
+.link-navN{
     font-weight: 600;
     font-size: 18px;
     line-height: 18px;

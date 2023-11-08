@@ -1,11 +1,11 @@
 const loadmorebtn = document.querySelector(".btn-train");
 const list = document.querySelector(".train-video");
 const train = document.querySelector(".training");
-const link = document.querySelector(".link-navl ");
-const linkl = document.querySelector(".link-navi ");
-const linki = document.querySelector(".link-navn ");
-const linkn = document.querySelector(".link-navk ");
-const linkk = document.querySelector(".link-navn ");
+const linkl = document.querySelector(".link-navl ");
+const linki = document.querySelector(".link-navi ");
+const linkn = document.querySelector(".link-navn ");
+const linkk = document.querySelector(".link-navk ");
+const linkN = document.querySelector(".link-navN ");
 const linka = document.querySelector(".link-nava ");
 const nav = document.querySelector(".nav");
 const burger =document.querySelector(".burger")
@@ -28,13 +28,9 @@ loadmorebtn.addEventListener("click", (e) => {
 });
 
 
-link.addEventListener("click", (e) => {
-    burger.classList.toggle("active");
-  nav.classList.remove("open")
-});
 linkl.addEventListener("click", (e) => {
     burger.classList.toggle("active");
-  nav.classList.remove("open");
+  nav.classList.remove("open")
 });
 linki.addEventListener("click", (e) => {
     burger.classList.toggle("active");
@@ -48,7 +44,15 @@ linkk.addEventListener("click", (e) => {
     burger.classList.toggle("active");
   nav.classList.remove("open");
 });
-linka.addEventListener("click", (e) => {
+linkN.addEventListener("click", (e) => {
     burger.classList.toggle("active");
   nav.classList.remove("open");
 });
+linka.addEventListener("click", (e) => {
+  burger.classList.toggle("active");
+  nav.classList.remove("open");
+});
+// linka.addEventListener("click", (e) => {
+//     burger.classList.toggle("active");
+//   nav.classList.remove("open");
+// });

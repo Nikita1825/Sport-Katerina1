@@ -22,7 +22,7 @@
                     <li> <a class="link-navi link" href="#am-id">Про мене</a></li>
                     <li> <a class="link-navn link" href="#train-id">Тренування</a></li>
                     <li> <a class="link-navk link" href="#massage-id">Массаж</a></li>
-                    <li> <a class="link-navn link" href="#reviews-id">Відгуки</a></li>
+                    <li> <a class="link-navN link" href="#reviews-id">Відгуки</a></li>
                     <li> <a class="link-nava link" href="#contacts-id">Контакти</a></li>
                 </ul>
             </nav>
@@ -153,10 +153,11 @@
             <h2 class="h-rev">
                 REVIEWS
             </h2>
+
             <ul class="list ul-rev">
-                <li class="li-rev"><img class="img-rev" src="./img/відгук1.jpg" width="281" height="243.58"></li>
-                <li class="li-rev"><img class="img-rev" src="./img/Відгук2.jpg" width="272" height="293"></li>
-                <li class="li-rev"><img class="img-rev" src="./img/Відгук3.jpg" width="283" height="153"></li>
+                <li class="li-rev"><img class="img-rev" media="(max-width:1731px)" width="281" height="243.58" srcset="./img/ВІДГУК1Х.jpg 1x, ./img/ВІДГУК2Х.jpg 2x" src="./img/ВІДГУК1Х.jpg" ></li>
+                <li class="li-rev"><img class="img-rev" srcset="./img/ВІДГУК21Х.jpg 1x, ./img/ВІДГУК22Х.jpg 2x" src="./img/ВІДГУК21Х.jpg" width="272" height="293"></li>
+                <li class="li-rev"><img class="img-rev" srcset="./img/ВІДГУК31Х.jpg 1x, ./img/ВІДГУК32Х.jpg 2x" src="./img/ВІДГУК31Х.jpg" width="283" height="153"></li>
             </ul>
 
         </div>
@@ -186,10 +187,7 @@
             this.classList.toggle("active");
             document.querySelector(".nav").classList.toggle("open")
         })</script>
-    <!-- <script>document.querySelector(".link-nav").addEventListener("click", function () {
-            this.classList.toggle("active");
-            document.querySelector(".nav").classList.remove("open")
-        })</script> -->
+
     <script type="module" src="./btn.js"></script>
 </body>
 
