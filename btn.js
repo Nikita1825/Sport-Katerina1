@@ -1,4 +1,5 @@
 const loadmorebtn = document.querySelector(".btn-train");
+const btn = document.querySelector(".btn-train-desk");
 const list = document.querySelector(".train-video");
 const train = document.querySelector(".training");
 const linkl = document.querySelector(".link-navl ");
@@ -22,6 +23,21 @@ loadmorebtn.addEventListener("click", (e) => {
 
     if (Elements.lastIndexOf) {
       loadmorebtn.style.display = "none";
+    }
+  }
+  currentItems += 7;
+});
+btn.addEventListener("click", (e) => {
+  e.preventDefault();
+  train.style.height = "2200px";
+  const Elements = [...document.querySelectorAll(".train-video li")];
+  for (let i = currentItems; i < currentItems + 7; i++) {
+    if (Elements[i]) {
+      Elements[i].style.display = "block";
+    }
+
+    if (Elements.lastIndexOf) {
+      btn.style.display = "none";
     }
   }
   currentItems += 7;
@@ -52,7 +68,4 @@ linka.addEventListener("click", (e) => {
   burger.classList.toggle("active");
   nav.classList.remove("open");
 });
-// linka.addEventListener("click", (e) => {
-//     burger.classList.toggle("active");
-//   nav.classList.remove("open");
-// });
+

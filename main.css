@@ -41,10 +41,7 @@ body {
     
 }
 .hero{
-    /* padding-top: 30px; */
-    /* max-width: 390px; */
-    /* margin-left: auto;
-    margin-right: auto; */
+
     padding-right: 47px;
     padding-left: 50px;
     
@@ -113,23 +110,11 @@ cursor: pointer;
     fill: white;
 }
 
-@media screen and (min-width:1731px) {
-.container {
-  max-width: 1731px;
-  
-}
-  .hero {
-    background-image: url(./img/zyro-image\ \(1\).png);
-    height: 1161px;
-}
 
-@media (min-device-pixel-ratio: 2),(-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi),(min-resolution: 2dppx) {
-   .hero {
-    background-image: url(./img/zyro-image\ \(1\).png);
-    
-}
-}
-}
+
+
+
+
 /* =======================================================start======================== */
 .start {
     background-image: url(./img/Kate1.jpg);
@@ -572,6 +557,12 @@ text-align: right;
     row-gap: 30px;
     display: flex;
    }
+   .info-main{
+    display: none;
+   }
+   .btn-train-desk{
+    display: none;
+   }
 }
 @keyframes burgerAnimations {
     from{
@@ -624,4 +615,254 @@ text-align: right;
     line-height: 18px;
     color: white;
     font-family: "Montserrat";
+}
+@media screen and (min-width:1731px) {
+.container {
+  max-width: 1731px;
+  
+}
+  .hero {
+    background-image: url(./img/main1.png);
+    height: 1161px;
+    padding-left: 179px;
+    padding-top: 100px;
+    /* width: 1731px; */
+}
+
+@media (min-device-pixel-ratio: 2),(-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi),(min-resolution: 2dppx) {
+   .hero {
+    background-image: url(./img/main1.png);
+    
+}
+}
+.burg{
+    display: none;
+}
+.info{
+    display: none;
+}
+.nav-list{
+    display: flex;
+    gap: 50px;
+}
+.txt-main{
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 28.5px;
+    width: 415px;
+    height: 116px;
+    color: white;
+    font-family: "Montserrat";
+    position: relative;
+    top: 380px;
+}
+.txt{
+   font-weight: 600;
+    font-size: 19px;
+    line-height: 28.5px;
+    width: 243px;
+    height: 87px;
+    color: white;
+    font-family: "Montserrat";
+    position: relative;
+    margin-left: auto;
+    top: 480px;  
+}
+.train{
+    position: relative;
+    margin-right: auto;
+    margin-left: 0;
+    top:520px;
+    font-size: 16px;
+    line-height: 21.74px;
+    width: 307px;
+    height: 22px;
+    display: inline;
+}
+/* ============================================== */
+.start{
+    background-image: url(./img/фон16.jpg);
+height: 1011px;
+
+padding-top: 306px;
+background-size: contain;
+
+
+}
+@media (min-device-pixel-ratio: 2),(-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi),(min-resolution: 2dppx) {
+   .start {
+    background-image: url(./img/фон16.jpg);
+    
+}
+}
+.start-info{
+    display: flex;
+    padding-left: 177px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 149px;
+}
+.h-start{
+    font-size: 148px;
+    line-height: 201.13px;
+    margin: 0;
+}
+.start-txt{
+    margin: 0;
+    padding-right: 165px;
+    font-size: 19px;
+    line-height: 28.5px;
+    height: 117p;
+    width: 425px;
+}
+.couch{
+   flex-direction: row; 
+   padding-left: 177px;
+   padding-right: 76px;
+   gap: 65px;
+}
+.start-list{
+    padding: 51px 55px 75px;
+}
+.h-couch{
+    font-size: 16px;
+    line-height: 21.74px;
+    margin-bottom: 37px;
+}
+.p-couch{
+    font-size: 19px;
+    line-height: 28.5px;
+}
+/* =================================== */
+.Iam{
+    background-image: url(./img/фон17.jpg);
+height: 1200px;
+padding-left: 177px;
+padding-right: 175px;
+padding-top: 72px;
+
+
+
+}
+@media (min-device-pixel-ratio: 2),(-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi),(min-resolution: 2dppx) {
+   .Iam {
+    background-image: url(./img/фон17.jpg);
+    
+}}
+.h-am{
+    display: flex;
+    justify-content: space-between;
+}
+.Who{
+    font-size: 148px;
+    line-height: 201.13px;
+}
+.I-am{
+    font-size: 148px;
+    line-height: 201.13px;
+}
+.fitness{
+    position: relative;
+    top: 90px;
+    left: 500px;
+    font-size: 19px;
+    line-height: 28.5px;
+    padding-left: 0;
+    width: 367.71px;
+}
+.fitness-p{
+     position: relative;
+    top: 200px;
+    left: 500px;
+    font-size: 19px;
+    line-height: 28.5px;
+    padding-left: 0;
+    width: 367.71px;
+}
+.fit-p{
+    font-size: 19px;
+    line-height: 28.5px;
+    position: relative;
+    top: 200px;
+    left: 1050px;
+    padding-left: 0;
+    width: 342px;
+    height: 170px;
+}
+/* ========================================= */
+.train-h{
+    padding-top: 118px;
+    font-size: 148px;
+    line-height: 201.13px;
+}
+.train-p{
+    font-size: 19px;
+    line-height: 28.5px;
+    text-align: start;
+    padding-right: 0;
+    margin-left: 850px;
+    margin-bottom: 85px;
+}
+.training{
+    padding-left: 177px;
+    height: 1416px;
+}
+.train-video{
+    flex-wrap: wrap;
+    flex-direction: row;
+    row-gap: 65px;
+   column-gap: 118px;
+   margin-bottom: 95px;
+}
+.video{
+   width: 415px; 
+   height: 238.88px;
+   
+}
+.btn-train{
+    display: none;
+}
+.btn-train-desk{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21.74px;
+    letter-spacing: 0.1em;
+    color: white;
+    cursor: pointer;
+    border-bottom: 2px solid white;
+    text-align: center;
+    padding-bottom: 4px;
+    align-items: center;
+    display: flex;
+    width: 340px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.icon-arrow{
+    width: 20px;
+    height: 20px;
+}
+.li-vid:nth-child(1){
+    display: block;
+}
+.li-vid:nth-child(2){
+    display: block;
+}
+.li-vid:nth-child(3){
+    display: block;
+}
+.li-vid:nth-child(4){
+    display: block;
+}
+.li-vid:nth-child(5){
+    display: block;
+}
+.li-vid:nth-child(6){
+    display: block;
+}
+.p-video{
+    font-size: 16px;
+    line-height: 21.74px;
+    width: 361px;
+}
 }
