@@ -69,3 +69,6 @@ linka.addEventListener("click", (e) => {
   nav.classList.remove("open");
 });
 
+
+
+
